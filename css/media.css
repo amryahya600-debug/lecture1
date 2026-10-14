@@ -1,0 +1,94 @@
+@media (max-width: 991px) {
+
+    .dropdown-menu {
+        position: static !important;
+        width: 100% !important;
+        transform: none !important;
+    }
+
+    .dropdown-menu .row {
+        flex-direction: column;
+    }
+
+    .dropdown-menu .col {
+        margin-bottom: 20px;
+    }
+
+    .navbar-nav {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #hero-section {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    #hero-section h1 {
+        font-size: 40px;
+        line-height: 1.15;
+        margin-bottom: 20px;
+    }
+
+    #hero-section .hero-description {
+        padding: 0 15px;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    #hero-section .search-box {
+        margin-top: 30px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    #hero-section .search-box label {
+        font-size: 14px;
+    }
+
+    #hero-section .search-box .form-control,
+    #hero-section .search-box .form-select {
+        min-height: 52px;
+        font-size: 15px;
+    }
+
+    #hero-section .search-btn {
+        min-height: 60px;
+        font-size: 18px;
+    }
+
+    #hero-section .stats {
+        margin-top: 35px;
+    }
+
+    #hero-section .stats h2 {
+        font-size: 27px;
+    }
+
+    #hero-section .stats p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #hero-section h1 {
+        font-size: 34px;
+    }
+
+    #hero-section .hero-description {
+        font-size: 16px;
+    }
+
+    #hero-section .search-box {
+        padding: 18px;
+    }
+
+    #hero-section .stats h2 {
+        font-size: 24px;
+    }
+
+    #hero-section .stats p {
+        font-size: 12px;
+    }
+}
